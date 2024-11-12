@@ -1,5 +1,8 @@
 package com.javaex.ex04;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Employee extends User {
 	   
 	   protected int salary;
@@ -12,6 +15,9 @@ public class Employee extends User {
 	      this.salary = salary;
 
 	   }
+	   
+	   List<String> user = new ArrayList<>();
+	   list
 	   
 	   
 	   public int getSalary() {
